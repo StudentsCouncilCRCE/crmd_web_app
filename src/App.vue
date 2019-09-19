@@ -4,9 +4,7 @@
       <v-toolbar flat>
         <v-list>
           <v-list-tile>
-            <v-list-tile-title class="title">
-              CRMD 2018
-            </v-list-tile-title>
+            <v-list-tile-title class="title">CRMD 2019</v-list-tile-title>
           </v-list-tile>
         </v-list>
       </v-toolbar>
@@ -39,7 +37,7 @@
       <v-avatar>
         <img src="../static/android-chrome-192x192.png" alt="LOGO">
       </v-avatar>
-      <v-toolbar-title class="white--text">CRMD 2018</v-toolbar-title>
+      <v-toolbar-title class="white--text">CRMD 2019</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn to="home" flat>Home</v-btn>
@@ -55,8 +53,7 @@
       </v-container>
     </v-content>
     <v-footer color="deep-purple darken-3" dark>
-      <v-spacer></v-spacer>
-      &copy; 2018 Ryan Dsilva
+      <v-spacer></v-spacer>&copy; 2018-19 Ryan Dsilva
       <v-spacer></v-spacer>
     </v-footer>
   </v-app>

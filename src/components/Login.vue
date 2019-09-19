@@ -1,29 +1,35 @@
 <template>
   <div>
-    <div class="display-2 text-xs-center">
-      Login
-    </div>
-    <v-form class="login-form-crmd">
-      <v-text-field v-model="email" type="email" :rules="emailRules" label="E-mail" required validate-on-blur></v-text-field>
-      <v-text-field v-model="password" type="password" :rules="passRules" label="Password" required validate-on-blur></v-text-field>
-      <div class="action-btn">
-        <v-btn class="my-4" @click="login">
-          submit
-        </v-btn>
-      </div>
-    </v-form>
+    <div class="display-2 text-xs-center">Login</div>
     <v-container>
       <transition name="fade">
-        <v-alert :value="performingRequest" type="info">
-          Please Wait... Logging You In...
-        </v-alert>
+        <v-alert :value="performingRequest" type="info">Please Wait... Logging You In...</v-alert>
       </transition>
       <transition name="fade">
-        <v-alert :value="errorMsg !== ''" type="error">
-          {{ errorMsg }}
-        </v-alert>
+        <v-alert :value="errorMsg !== ''" type="error">{{ errorMsg }}</v-alert>
       </transition>
     </v-container>
+    <v-form class="login-form-crmd">
+      <v-text-field
+        v-model="email"
+        type="email"
+        :rules="emailRules"
+        label="E-mail"
+        required
+        validate-on-blur
+      ></v-text-field>
+      <v-text-field
+        v-model="password"
+        type="password"
+        :rules="passRules"
+        label="Password"
+        required
+        validate-on-blur
+      ></v-text-field>
+      <div class="action-btn">
+        <v-btn class="my-4" @click="login">Submit</v-btn>
+      </div>
+    </v-form>
   </div>
 </template>
 
