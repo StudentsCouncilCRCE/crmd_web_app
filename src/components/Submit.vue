@@ -138,6 +138,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import calc from '../private/calc';
 
 const fb = require('../firebase.js');
@@ -287,6 +288,7 @@ export default {
             pscore: this.pscore,
             opp: this.opp,
             oscore: this.oscore,
+            submitBy: this.currentUser.email,
           })
           // eslint-disable-next-line
           .then(ref => {
@@ -309,6 +311,9 @@ export default {
       this.pscore = calc(this.pScoreObj);
       this.oscore = calc(this.oScoreObj);
     },
+  },
+  computed: {
+    ...mapState(['currentUser']),
   },
 };
 </script>
