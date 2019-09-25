@@ -56,7 +56,7 @@ export default {
           value: false,
           floor: '5',
           room: 'Seminar Hall',
-          rincharge: 'Pranay & Harkirat',
+          rincharge: 'Pranay',
         },
         {
           value: false,
