@@ -274,26 +274,25 @@ export default {
           value: false,
           teamcode: 'CMD29',
           tincharge: 'LOKESH GENEKAL',
-          contact: '9920342460
-',
+          contact: '9920342460',
         },
         {
           value: false,
           teamcode: 'CMD30',
-          tincharge: 'Abhiram Iyengar',
-          contact: '',
+          tincharge: 'TRISTAN',
+          contact: '8424986506',
         },
         {
           value: false,
           teamcode: 'CMD31',
-          tincharge: 'Samuel Matthew',
-          contact: '',
+          tincharge: 'Karan Shah',
+          contact: '8655578935',
         },
         {
           value: false,
           teamcode: 'CMD32',
-          tincharge: 'Gaurav Dashpute',
-          contact: '',
+          tincharge: 'Tijo Thomas',
+          contact: '9594302176',
         },
       ],
     };
