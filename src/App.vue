@@ -53,7 +53,7 @@
       </v-container>
     </v-content>
     <v-footer color="deep-purple darken-3" dark>
-      <v-spacer></v-spacer>&copy; 2018-19 Ryan Dsilva
+      <v-spacer></v-spacer>&copy; 2019-20 Ryan Dsilva, Pranay Bagrecha with love
       <v-spacer></v-spacer>
     </v-footer>
   </v-app>
